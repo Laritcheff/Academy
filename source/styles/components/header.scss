@@ -1,0 +1,66 @@
+header {
+  width: 100%;
+  max-width: 1920px;
+  height: 50%;
+  background-color: $blue;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+header h3 {
+  margin: 7% 0 0 20%;
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 3.5em;
+  line-height: 66px;
+}
+
+nav {
+  margin-left: 20%;
+  width: 40%;
+  padding: 2% 15%;
+  background: url(../img/Logo.png) no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+li {
+  padding-left: 1%;
+  margin: 4% 5%;
+}
+header a {
+  color: white;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+#free_quote {
+  margin-left: 100%;
+  white-space: nowrap;
+  padding: 20% 40%;
+  background-color: darkturquoise;
+  border-radius: 28px;
+}
+
+header p {
+  margin: 3% 20%;
+  color: $wheat;
+}
+.get_started {
+  margin-left: 20%;
+padding-bottom: 150px;
+}
+.get_started a {
+  padding: 15px 52px;
+  background-color: darkturquoise;
+  
+  border-radius: 28px;
+}
+#video{width: 61px;
+
+margin-left: 25px;
+//padding:17px 16px 17px 17px;
+background-color: white;
+border-radius: 25px;
+}
