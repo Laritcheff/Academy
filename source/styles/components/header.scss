@@ -3,7 +3,7 @@ header {
   max-width: 1920px;
   height: 50%;
   background-color: $blue;
-  font-family: "Roboto", sans-serif;
+  
   color: white;
 }
 header h3 {
@@ -30,6 +30,7 @@ li {
 }
 header a {
   color: white;
+white-space: nowrap;
 }
 ul {
   display: flex;
@@ -37,7 +38,7 @@ ul {
 }
 #free_quote {
   margin-left: 100%;
-  white-space: nowrap;
+  
   padding: 20% 40%;
   background-color: darkturquoise;
   border-radius: 28px;
@@ -49,18 +50,17 @@ header p {
 }
 .get_started {
   margin-left: 20%;
-padding-bottom: 150px;
+  padding-bottom: 5%;
 }
 .get_started a {
   padding: 15px 52px;
-  background-color: darkturquoise;
-  
+  background-color: darkturquoise;  
   border-radius: 28px;
 }
-#video{width: 61px;
-
+#video{
+background: url(../img/video_button.png) no-repeat center center;
+padding: 15px 25px;
 margin-left: 25px;
-//padding:17px 16px 17px 17px;
 background-color: white;
-border-radius: 25px;
+border-radius: 50px;
 }

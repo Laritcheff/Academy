@@ -1,0 +1,16 @@
+footer{background-color: $blue;}
+
+.top{border:5px solid green;
+width:60%;
+margin:0 auto;}
+.bottoms{
+display:flex;
+flex-direction: row;
+}
+footer ul{display: inline;}
+
+#privacy_policy{
+position:absolute;
+left: 550px;
+bottom: -1070px;
+}
