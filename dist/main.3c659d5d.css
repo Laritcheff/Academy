@@ -140,6 +140,8 @@ header {
   max-width: 1920px;
   height: 50%;
   background-color: #074ECE;
+  margin-right: -150px;
+  border-radius: 0 0 800px 100px;
   color: white;
 }
 
@@ -214,6 +216,7 @@ header p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .top_sections img {
@@ -226,11 +229,10 @@ header p {
   flex-direction: column;
   align-items: center;
   width: 20vw;
-  height: 40vh;
   padding: 5%;
   margin: 0 1vw;
   background-color: #FFFFFF;
-  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
 }
 
@@ -250,6 +252,9 @@ header p {
 }
 
 .bottom_section {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
   margin: 5% 21vw;
 }
 
@@ -259,9 +264,9 @@ header p {
 }
 
 #avatar {
-  float: left;
-  width: 25vw;
-  margin-right: 7%;
+  width: 24vw;
+  height: 40vh;
+  margin-right: 7vh;
 }
 
 .bottom_section ul {
@@ -269,45 +274,98 @@ header p {
   clear: both;
 }
 
-.bottom_section {
-  margin-bottom: 10%;
-}
-
 h2 {
+  margin: 2vh 0;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 2.8em;
   line-height: 54px;
 }
 
 .bottom_section li {
-  text-align: right;
+  padding-left: 40px;
+  margin: 2vh 0;
+  text-align: left;
   background: url(/checkmark.8a70a8cd.png) no-repeat;
-  padding-left: 20px;
+}
+
+.bottom_section p {
+  margin: 5vh 0;
+}
+
+.bottom_section a {
+  margin: 24px 0;
+  color: #FFFFFF;
+  background-color: darkturquoise;
+  white-space: nowrap;
+  padding: 2vh 2vw;
+  border-radius: 25px;
 }
 
 footer {
-  background-color: #074ECE;
+  background: url(/footerbg.1ff6d089.png) no-repeat;
 }
 
 .top {
-  border: 5px solid green;
-  width: 60%;
+  display: flex;
+  flex-direction: row;
+  border: 15px solid #db4d4d;
+  background-color: #ebf7ff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+  width: 60vw;
+  height: 20vh;
   margin: 0 auto;
 }
 
+.top h2 {
+  font-size: 1.2em;
+}
+
 .bottoms {
+  color: #FFFFFF;
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 footer ul {
   display: inline;
 }
 
+#sign_up {
+  width: 25vw;
+}
+
+#email {
+  height: 36px;
+  border: 1px solid #000;
+  min-height: 20px;
+}
+
+#email_form {
+  height: 66px;
+  border: none;
+  outline: none;
+  margin: auto 0;
+}
+
+#submit {
+  width: 5vw;
+  height: 5vh;
+  border: none;
+  background: url(/send.8b22198d.png) no-repeat 50% 50%;
+}
+
 #privacy_policy {
   position: absolute;
   left: 550px;
   bottom: -1070px;
+}
+
+#dace {
+  width: 30%;
 }
 
 /*# sourceMappingURL=/main.3c659d5d.css.map */
