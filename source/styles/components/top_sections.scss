@@ -1,38 +1,61 @@
 .top_sections {
-  width: 60%;
+  width: 60vw;
   margin: 5% auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-flex-grow:1;
+  flex-grow: 1;
 }
 .top_sections img {
-  width: 60%;
+  width: 10vw;
 }
 .top_sections section {
+ 
+ 
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20vw;
-  
-  padding: 5%;
+  width: 22vw;
+  height: 37vh;
+  padding: 5% 5% 8% 5%;
   margin: 0 1vw;
   background-color: $white;
-  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
 .top_sections a {
-white-space: nowrap;
-  padding: 2% 25%;
+  position: absolute;
+  bottom: 3vh;
+  left: center;
+  white-space: nowrap;
+  padding: 2% 10%;
   margin-top: 20px;
   color: $cyan;
-  background-color: $white; 
+  background-color: $white;
   border: 2px solid $cyan;
   border-radius: 25px;
 }
 #section_midle a {
   color: $white;
   background-color: $cyan;
+}
+
+.top_sections section {
+  position: relative;
+}
+
+//mobile version
+@media (max-width: 640px) {
+  .top_sections {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 90%;
+  }
+  .top_sections section {
+margin:1vh 0;
+    width: 90%;
+
+  }
 }
