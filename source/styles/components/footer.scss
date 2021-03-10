@@ -1,67 +1,56 @@
 footer {
-  position: relative;
   background: url(../img/footerbg.png) no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
 }
 
 .top {
   display: flex;
   flex-direction: row;
-  border: 15px solid $white;
+  border: 15px solid#2724e4;
   background-color: #ebf7ff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
-  border-radius: 10px;
   width: 60vw;
-  height: 33vh;
+  height: 20vh;
   margin: 0 auto;
   text-align: left;
 }
-
-footer li {
-  margin: 0;
-}
 .top h2 {
-  padding: 3px;
-  color: #171614;
-  font-size: 2em;
+color: #171614;
+  font-size: 1.2em;
 }
 .bottoms {
-  line-height: 40px;
   color: $white;
   width: 60%;
-  margin: 5% auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0;
 }
 footer ul {
   display: inline;
+  
 }
 #sign_up {
-  padding: 4vh 5vw;
+padding:2%;
   width: 25vw;
 }
 
 #email {
-  margin: 12vh 3vw 12vh 2vw;
   background-color: $white;
   position: relative;
-  width: 25vw;
-  height: 8vh;
+  width: 17vw;
+  height: 5vh;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.04);
   border-radius: 5px 0px 0px 5px;
 }
 #email_form {
-  color: #777777;
+  color: 777777;
   font-size: 1em;
-  height: 5vh;
+  height: 4vh;
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2%;
 
   border: none;
   outline: none;
@@ -69,8 +58,8 @@ footer ul {
 #submit {
   position: absolute;
   right: 0;
-  width: 4vw;
-  height: 8vh;
+  width: 3vw;
+  height: 5vh;
   border: none;
   background: url(../img/send.png) no-repeat 50% 50%;
 }
@@ -80,59 +69,7 @@ footer ul {
   left: 550px;
   bottom: -1070px;
 }
-.bottoms h3 {
-  padding-bottom: 30px;
-}
+
 #dace {
   width: 30%;
-  padding-bottom: 30px;
-}
-.social_net_logo {
-  margin-top: 30px;
-  width: 20vw;
-  margin: 0;
-  padding: 0;
-}
-.social_net_logo img{margin-left:15px;}
-#privacy_policy{
-padding:20px 0;
-width:60%;
-position:absolute;
-left:20%;
-bottom:0;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-font-weight: 300;
-font-size: 16px;
-line-height: 30px;
-}
-
-
-//mobile version
-@media (max-width: 640px) {
-  .top {
-    margin: 3vh auto;
-    flex-direction: column;
-    width:90%;
-height:auto;
-  }
-#sign_up {  
-  width: 90%;
-}
-#email{width:80%;
-margin-bottom: 15px;
-}
-#submit{width:8vw;}
-.bottoms section{width:90%;
-flex-direction: column;}
-.bottoms{
-width:90%;
-flex-direction:column;
-}
-#dace, #about, #quick_links{display: none;}
-  
-#privacy_policy{width:90%;
-left:2%;
-}
 }
