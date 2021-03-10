@@ -1,52 +1,65 @@
 footer {
   background: url(../img/footerbg.png) no-repeat;
+  background-size: cover;
 }
 
 .top {
   display: flex;
   flex-direction: row;
-  border: 15px solid#db4d4d;
+  border: 15px solid#2724e4;
   background-color: #ebf7ff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
   width: 60vw;
   height: 20vh;
   margin: 0 auto;
+  text-align: left;
 }
 .top h2 {
+color: #171614;
   font-size: 1.2em;
 }
 .bottoms {
-color:$white;
+  color: $white;
   width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 footer ul {
   display: inline;
+  
 }
 #sign_up {
+padding:2%;
   width: 25vw;
 }
 
 #email {
-  height: 36px;
-
-  border: 1px solid #000;
-  min-height: 20px;
+  background-color: $white;
+  position: relative;
+  width: 17vw;
+  height: 5vh;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 5px 0px 0px 5px;
 }
 #email_form {
-  height: 66px;
+  color: 777777;
+  font-size: 1em;
+  height: 4vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
   border: none;
   outline: none;
-  margin: auto 0;
 }
 #submit {
-  width: 5vw;
+  position: absolute;
+  right: 0;
+  width: 3vw;
   height: 5vh;
-
   border: none;
   background: url(../img/send.png) no-repeat 50% 50%;
 }
@@ -57,4 +70,6 @@ footer ul {
   bottom: -1070px;
 }
 
-#dace{width:30%;}
+#dace {
+  width: 30%;
+}
