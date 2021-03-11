@@ -25,3 +25,17 @@ width:100%;
     display: block;
   }
 }
+
+li a:hover{
+transition-duration: 0.3s;
+color:rgb(200, 202, 241);
+}
+a:hover{
+transition-duration: 0.3s;
+color:rgb(200, 202, 241);
+}
+a img:hover{
+  transition-duration: .3s;
+	    transform: scale(1.3);
+
+}

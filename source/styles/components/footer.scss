@@ -20,26 +20,29 @@
     font-size: 2em;
   }
   &__bottom {
+    position: relative;
     line-height: 40px;
     color: $white;
     width: 60%;
     margin: 5% auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row;    
     justify-content: space-between;
     margin-bottom: 0;
+    padding-bottom: 150px;
   }
-&__bottom a{line-height: 40px;
-    color: $white;}
-&__title {
-  padding-bottom: 30px;
-}
+  &__bottom a {
+    line-height: 40px;
+    color: $white;
+  }
+  &__title {
+    padding-bottom: 30px;
+  }
   & ul {
     display: inline;
   }
   &__sign_up {
-    padding: 4vh 5vw;
+    padding: 10vh 5vw;
     width: 25vw;
   }
 
@@ -130,11 +133,6 @@
     &__about,
     &__quick_links {
       display: none;
-    }
-
-    #privacy_policy {
-      width: 90%;
-      left: 2%;
     }
   }
 }

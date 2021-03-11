@@ -155,18 +155,32 @@ h6 {
     display: block;
   }
 }
+li a:hover {
+  transition-duration: 0.3s;
+  color: #c8caf1;
+}
+
+a:hover {
+  transition-duration: 0.3s;
+  color: #c8caf1;
+}
+
+a img:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.3);
+}
+
 .header {
   width: 100%;
-  height: 100vh;
+  height: 50%;
   background-image: url(/lines.6455b6a8.png), url(/headerbg.bbbb39e6.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: 2% 93%, top left;
-  background-size: 20%, contain;
-  background-attachment: local;
+  background-position: 1.5vw 40vh, left bottom;
+  background-size: 20%, cover;
   color: white;
 }
 .header__banner-title {
-  margin: 7% 0 0 20%;
+  margin: 7vh 0 0 20%;
   display: block;
   font-family: "Lato", sans-serif;
   font-size: 3.5em;
@@ -196,8 +210,8 @@ h6 {
   flex-direction: row;
 }
 .header__menu_desktop-items-free_quote {
-  margin-left: 100%;
-  padding: 1.5vh 3vw;
+  margin: 0 50%;
+  padding: 1.5vh 2vw;
   background-color: darkturquoise;
   border-radius: 28px;
 }
@@ -225,41 +239,43 @@ h6 {
   .header__menu_desktop {
     display: none;
   }
-}
-
-.header__mobile__checkbox-label {
-  display: block;
-  width: 5vw;
-  height: 5vh;
-  margin-left: 25px;
-  background: url(/hamb.758e8693.png) no-repeat center center;
-}
-.header__mobile input[type=checkbox] {
-  display: none;
-}
-.header__mobile__navigation {
-  display: none;
-}
-.header__mobile a {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  width: 64px;
-  height: 74px;
-  margin: 10px;
-  margin-left: 20px;
-}
-.header__mobile input[type=checkbox]:checked ~ ul {
-  transition-duration: 3s;
-  display: block;
-  position: absolute;
-  top: 50px;
-  left: 8px;
-  border-radius: 5px;
-  width: 300px;
-  height: 400px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-  overflow-y: scroll;
+  .header__mobile {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    font-size: 1.5em;
+  }
+  .header input[type=checkbox] {
+    display: none;
+  }
+  .header ul {
+    display: none;
+  }
+  .header input[type=checkbox]:checked ~ ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    border-radius: 5px;
+    width: 60vw;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    overflow-y: scroll;
+    background-color: #074ECE;
+  }
+  .header label {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    background: url(/hamb.758e8693.png) no-repeat center center;
+    background-size: 100%;
+  }
+  .header__mobile-navigation-items {
+    padding: 10px;
+  }
 }
 
 .top_sections {
@@ -281,7 +297,7 @@ h6 {
   align-items: center;
   width: 22vw;
   height: 37vh;
-  padding: 5% 5% 8% 5%;
+  padding: 5% 5% 15vh 5%;
   margin: 0 1vw;
   background-color: #FFFFFF;
   box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.4);
@@ -293,7 +309,6 @@ h6 {
   left: center;
   white-space: nowrap;
   padding: 2% 10%;
-  margin-top: 20px;
   color: darkturquoise;
   background-color: #FFFFFF;
   border: 2px solid darkturquoise;
@@ -312,6 +327,8 @@ h6 {
   .top_sections__section {
     margin: 1vh 0;
     width: 90%;
+    height: auto;
+    padding-bottom: 25vh;
   }
 }
 
@@ -328,7 +345,6 @@ h6 {
 }
 .bottom_section__avatar-img {
   width: 28vw;
-  height: 59vh;
   margin-right: 7vh;
 }
 .bottom_section__list {
@@ -396,15 +412,16 @@ h6 {
   font-size: 2em;
 }
 .footer__bottom {
+  position: relative;
   line-height: 40px;
   color: #FFFFFF;
   width: 60%;
   margin: 5% auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
+  padding-bottom: 150px;
 }
 .footer__bottom a {
   line-height: 40px;
@@ -417,7 +434,7 @@ h6 {
   display: inline;
 }
 .footer__sign_up {
-  padding: 4vh 5vw;
+  padding: 10vh 5vw;
   width: 25vw;
 }
 .footer__email {
@@ -501,10 +518,6 @@ h6 {
   }
   .footer__bottom-dace, .footer__about, .footer__quick_links {
     display: none;
-  }
-  .footer #privacy_policy {
-    width: 90%;
-    left: 2%;
   }
 }
 

@@ -17,7 +17,7 @@
     align-items: center;
     width: 22vw;
     height: 37vh;
-    padding: 5% 5% 8% 5%;
+    padding: 5% 5% 15vh 5%;
     margin: 0 1vw;
     background-color: $white;
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.4);
@@ -30,7 +30,6 @@
     left: center;
     white-space: nowrap;
     padding: 2% 10%;
-    margin-top: 20px;
     color: $cyan;
     background-color: $white;
     border: 2px solid $cyan;
@@ -51,6 +50,8 @@
     &__section {
       margin: 1vh 0;
       width: 90%;
+      height: auto;
+      padding-bottom: 25vh;
     }
   }
 }
