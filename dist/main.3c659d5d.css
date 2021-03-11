@@ -170,6 +170,21 @@ a img:hover {
   transform: scale(1.3);
 }
 
+li a:focus {
+  transition-duration: 0.3s;
+  color: #c8caf1;
+}
+
+a:focus {
+  transition-duration: 0.3s;
+  color: #c8caf1;
+}
+
+a img:focus {
+  transition-duration: 0.3s;
+  transform: scale(1.3);
+}
+
 .header {
   width: 100%;
   height: 50%;
@@ -210,7 +225,7 @@ a img:hover {
   flex-direction: row;
 }
 .header__menu_desktop-items-free_quote {
-  margin: 0 50%;
+  margin: 0 50% 0 0;
   padding: 1.5vh 2vw;
   background-color: darkturquoise;
   border-radius: 28px;
@@ -255,6 +270,7 @@ a img:hover {
     display: none;
   }
   .header input[type=checkbox]:checked ~ ul {
+    transition-duration: 1s;
     display: block;
     position: absolute;
     top: 50px;
@@ -262,8 +278,8 @@ a img:hover {
     border-radius: 5px;
     width: 60vw;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-    overflow-y: scroll;
     background-color: #074ECE;
+    opacity: 0.8;
   }
   .header label {
     display: block;
@@ -278,6 +294,19 @@ a img:hover {
   }
 }
 
+@media (max-width: 1280px) {
+  .header {
+    background-color: #074ECE;
+    background-image: none !important;
+  }
+  .header__menu_desktop {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header__banner-title {
+    margin: 40px 30px;
+  }
+}
 .top_sections {
   width: 60vw;
   margin: 5% auto;
@@ -331,6 +360,12 @@ a img:hover {
     padding-bottom: 25vh;
   }
 }
+@media (max-width: 1280px) {
+  .top_sections {
+    width: 90vw;
+    margin: 3vh auto;
+  }
+}
 
 .bottom_section {
   width: 60%;
@@ -376,7 +411,6 @@ a img:hover {
   padding: 2vh 2vw;
   border-radius: 25px;
 }
-
 @media (max-width: 640px) {
   .bottom_section {
     margin: 3vh auto;
@@ -390,6 +424,14 @@ a img:hover {
     margin-top: 5vh;
   }
 }
+@media (max-width: 1280px) {
+  .bottom_section {
+    width: 90%;
+    display: block;
+    margin: 50px;
+  }
+}
+
 .footer {
   background: url(/footerbg.1ff6d089.png) no-repeat;
   background-size: cover;
@@ -434,6 +476,7 @@ a img:hover {
   display: inline;
 }
 .footer__sign_up {
+  padding: 10vh 5vw;
   padding: 10vh 5vw;
   width: 25vw;
 }
@@ -518,6 +561,29 @@ a img:hover {
   }
   .footer__bottom-dace, .footer__about, .footer__quick_links {
     display: none;
+  }
+}
+@media (max-width: 1280px) {
+  .footer__top {
+    margin: 10px auto;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  .footer__sign_up {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .footer__email {
+    width: 90%;
+  }
+  .footer__bottom {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .footer__socialnet_img {
+    width: 10vw;
   }
 }
 

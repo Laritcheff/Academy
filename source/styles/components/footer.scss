@@ -26,7 +26,7 @@
     width: 60%;
     margin: 5% auto;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0;
     padding-bottom: 150px;
@@ -42,6 +42,7 @@
     display: inline;
   }
   &__sign_up {
+    padding: 10vh 5vw;
     padding: 10vh 5vw;
     width: 25vw;
   }
@@ -134,5 +135,26 @@
     &__quick_links {
       display: none;
     }
+  }
+  //tablt version
+  @media (max-width: 1280px) {
+    &__top {
+      margin: 10px auto;
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+    }
+    &__sign_up {
+      width: 90%;
+      height: auto;
+      padding-bottom: 30px;
+    }
+    &__email {
+      width: 90%;
+    }
+&__bottom{width:90%;
+margin: 30px auto;}
+ 
+&__socialnet_img{width: 10vw;}
   }
 }

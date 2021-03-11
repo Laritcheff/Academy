@@ -11,7 +11,7 @@
   }
   &__avatar-img {
     width: 28vw;
-    
+
     margin-right: 7vh;
   }
 
@@ -20,7 +20,7 @@
     clear: both;
   }
 
-  h2 {
+  & h2 {
     color: #171614;
     margin: 2vh 0;
     font-weight: bold;
@@ -48,19 +48,29 @@
     padding: 2vh 2vw;
     border-radius: 25px;
   }
-}
+
   //mobile version
   @media (max-width: 640px) {
-    .bottom_section {
+    & {
       margin: 3vh auto;
       flex-direction: column-reverse;
       width: 90%;
-    
-    &__avatar-img{
-      width:100%;
-margin:0;
-      height: auto;
-      margin-top: 5vh;
+
+      &__avatar-img {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        margin-top: 5vh;
+      }
     }
   }
+  //tablet version
+  @media (max-width: 1280px) {
+  & {
+      width: 90%;
+      display: block;
+      margin: 50px;
+    }
+    
   }
+}

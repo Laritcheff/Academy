@@ -3,8 +3,8 @@
   height: 50%;
   background-image: url(../img/lines.png), url(../img/headerbg.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: 1.5vw 40vh,left bottom;
-  background-size: 20%, cover;  
+  background-position: 1.5vw 40vh, left bottom;
+  background-size: 20%, cover;
   color: white;
 
   &__banner-title {
@@ -39,7 +39,7 @@
     flex-direction: row;
   }
   &__menu_desktop-items-free_quote {
-    margin: 0 50%;
+    margin: 0 50% 0 0;
     padding: 1.5vh 2vw;
     background-color: darkturquoise;
     border-radius: 28px;
@@ -88,7 +88,8 @@
       display: none;
     }
 
-    input[type="checkbox"]:checked ~ ul {      
+    input[type="checkbox"]:checked ~ ul {
+      transition-duration: 1s;
       display: block;
       position: absolute;
       top: 50px;
@@ -96,8 +97,8 @@
       border-radius: 5px;
       width: 60vw;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-      overflow-y: scroll;
       background-color: $blue;
+      opacity: 0.8;
     }
     label {
       display: block;
@@ -108,6 +109,22 @@
       background-size: 100%;
     }
 
-&__mobile-navigation-items{padding:10px;}
+    &__mobile-navigation-items {
+      padding: 10px;
+    }
+  }
+}
+//tablet version
+@media (max-width: 1280px) {
+  .header {
+    background-color: $blue;
+    background-image: none !important;
+    &__menu_desktop {
+width:90%;
+      margin: 0 auto;
+    }
+    &__banner-title {
+      margin: 40px 30px;
+    }
   }
 }

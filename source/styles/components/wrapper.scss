@@ -21,21 +21,33 @@ h6 {
 
 @media (max-width: 640px) {
   .header__mobile {
-width:100%;
+    width: 100%;
     display: block;
   }
 }
 
-li a:hover{
-transition-duration: 0.3s;
-color:rgb(200, 202, 241);
+li a:hover {
+  transition-duration: 0.3s;
+  color: rgb(200, 202, 241);
 }
-a:hover{
-transition-duration: 0.3s;
-color:rgb(200, 202, 241);
+a:hover {
+  transition-duration: 0.3s;
+  color: rgb(200, 202, 241);
 }
-a img:hover{
-  transition-duration: .3s;
-	    transform: scale(1.3);
+a img:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.3);
+}
 
+li a:focus {
+  transition-duration: 0.3s;
+  color: rgb(200, 202, 241);
+}
+a:focus {
+  transition-duration: 0.3s;
+  color: rgb(200, 202, 241);
+}
+a img:focus {
+  transition-duration: 0.3s;
+  transform: scale(1.3);
 }
