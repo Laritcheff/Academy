@@ -7,9 +7,9 @@
   line-height: 30px;
   color: $black;
 }
-/*.hamburger {
+.header__mobile {
   display: none;
-}*/
+}
 h1,
 h2,
 h3,
@@ -20,7 +20,8 @@ h6 {
 }
 
 @media (max-width: 640px) {
-  .hamburger {
+  .header__mobile {
+width:100%;
     display: block;
   }
 }

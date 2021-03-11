@@ -13,164 +13,162 @@
 
 <body>
   <div class="wrapper">
-    <header>
-<div class="hamburger">
-
-        <input type="checkbox" id="checkbox_toggle">
-        <label for="checkbox_toggle"></label>
-<ul>
-<li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#" id="free_quote">Free Quote</a></li>
-</ul>
-
-</div>
-      <nav class="menu_desktop">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#" id="free_quote">Free Quote</a></li>
+    <header class="header">
+      <nav class="header__mobile">
+        <input type="checkbox" class="header__mobile__checkbox_toggle">
+        <label class="header__mobile__checkbox-label" for="checkbox_toggle"></label>
+        <ul class="header__mobile__navigation">
+          <li class="header__mobile-navigation-items"><a href="#">Home</a></li>
+          <li class="header__mobile-navigation-items"><a href="#">About</a></li>
+          <li class="header__mobile-navigation-items"><a href="#">Services</a></li>
+          <li class="header__mobile-navigation-items"><a href="#">Pages</a></li>
+          <li class="header__mobile-navigation-items"><a href="#">Blog</a></li>
+          <li class="header__mobile-navigation-items"><a href="#">Contacts</a></li>
+          <li class="header__mobile-navigation-items Header__free-quote"><a href="#">Free Quote</a></li>
         </ul>
       </nav>
 
-
-      <section class="main">
-        <h3>
+      <nav class="header__menu_desktop">
+        <ul class="header__menu_desktop-nav">
+          <li><a class="header__menu_desktop-items" href="#">Home</a></li>
+          <li><a class="header__menu_desktop-items" href="#">About</a></li>
+          <li><a class="header__menu_desktop-items" href="#">Services</a></li>
+          <li><a class="header__menu_desktop-items" href="#">Pages</a></li>
+          <li><a class="header__menu_desktop-items" href="#">Blog</a></li>
+          <li><a class="header__menu_desktop-items" href="#">Contacts</a></li>
+          <li><a class="header__menu_desktop-items-free_quote" href="#">Free Quote</a></li>
+        </ul>
+      </nav>
+      <section class="header__banner">
+        <h3 class="header__banner-title">
           Data Science and<br>
           Analytics whith Survey<br>
           Reports
         </h3>
-        <p>
+        <p class="header__banner-text">
           Aenan sed nibh a magna posuere tempor.Nunc faucibus pellentesque<br>
           nunc in aliquet Donec congue.
         </p>
-        <div class="get_started">
-          <a id="get_started" href="#">Get Started</a>
-          <a id="video" href="#"></a>
+        <div class="header__banner-get_started">
+          <a class="header__banner-start-button" href="#">Get Started</a>
+          <a class="header__banner-video-button" href="#"></a>
         </div>
       </section>
     </header>
-    <main>
+    <main class="main_conteiner">
       <div class="top_sections">
-        <section id="section_left">
-          <img src="/comp_icon.3f453c53.png" alt="computer">
-          <h3>Data Managment</h3>
-          <p>
+        <section class="top_sections__section top_sections__section-left">
+          <img class="top_sections__img top_sections__img-left" src="/comp_icon.3f453c53.png" alt="computer">
+          <h3 class="top_sections__title">Data Managment</h3>
+          <p class="top_sections__text">
             Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac.
             Ut sit amet erat nec nibh rhoncus.
           </p>
-          <a href="#">Learn more</a>
+          <a class="top_sections__button top_sections__button-left" href="#">Learn more</a>
         </section>
-        <section id="section_midle">
-          <img src="/lamp_icon.27a4a602.png" alt="lamp">
-          <h3>Machine Learning</h3>
-          <p>
+        <section class="top_sections__section top_sections__section-midle">
+          <img class="top_sections__img top_sections__img-midle" src="/lamp_icon.27a4a602.png" alt="lamp">
+          <h3 class="top_sections__title">Machine Learning</h3>
+          <p class="top_sections__text">
             Amet minim mollit non deserunt ulla est sit aliqua dolor do amet
             sint. Velit officia consequat dui.
           </p>
-          <a href="#">Learn more</a>
+          <a class="top_sections__button top_sections__button-midle" href="#">Learn more</a>
         </section>
-        <section id="section_right">
-          <img src="/octothorp_icon.50956cce.png" alt="octothorp">
-          <h3>Artificial Inteleigence</h3>
-          <p>
+        <section class="top_sections__section top_sections__section-right">
+          <img class="top_sections__img top_sections__img-right" src="/octothorp_icon.50956cce.png" alt="octothorp">
+          <h3 class="top_sections__title">Artificial Inteleigence</h3>
+          <p class="top_sections__text">
             Curabitur vulputate arcu odio, ac facilis diam accumsan ut. Ut
             imperdiet et leo in vulputate. Sed eleifend lacus.
           </p>
-          <a href="#">Learn more</a>
+          <a class="top_sections__button top_sections__button-right" href="#">Learn more</a>
         </section>
       </div>
+
       <div class="bottom_section">
-        <div id="avatar">
-          <img id="avatar" src="/127717_prev_98.f728e632.jpg" alt="avatar">
-</div>
-          <div id="content">
-          <em>About Our Company</em>
-          <h2>We Bring the Power of Data Science & Analytics to Business</h2>
+        <div class="bottom_section__avatar">
+          <img class="bottom_section__avatar-img" src="/127717_prev_98.f728e632.jpg" alt="avatar">
+        </div>
+        <div class="bottom_section__content">
+          <em class="bottom_section__title">About Our Company</em>
+          <h2 class="bottom_section__content-title">We Bring the Power of Data Science & Analytics to Business</h2>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
             the luis majority have suffered alteration in some form, by injected
             humo randomiseda words which don't look even slightly believable.
           </p>
-          <ul>
-            <li>Bringing power from data science & artificial intelligence</li>
-            <li>
+          <ul class="bottom_section__list">
+            <li class="bottom_section__list-item">Bringing power from data science & artificial intelligence</li>
+            <li class="bottom_section__list-item">
               Data science and artificial intelligence bring powers for good
               business
             </li>
-            <li>Next generation trends will happens from analytics</li>
+            <li class="bottom_section__list-item">Next generation trends will happens from analytics</li>
           </ul>
-          <a href="#">More About Us</a>
+          <a class="bottom_section__button" href="#">More About Us</a>
         </div>
       </div>
     </main>
-    <footer>
-      <div class="top">
-        <section id="sign_up">
-          <h2>Sign Up to Get Updates</h2>
-          <p>
+    <footer class="footer">
+      <div class="footer__top">
+        <section class="footer__sign_up">
+          <h2 class="footer__sign_up--title">Sign Up to Get Updates</h2>
+          <p class="footer__sign_up--text">
             There are many variations of passages of Lorem Ipsum
             available, but the majority have suffered.
           </p>
         </section>
-        <form id="email">
-          <input type="email" id="email_form" value="Enter your email here" required="" multiple="">
-          <input type="submit" id="submit" value="">
+        <form class="footer__email">
+          <input type="email" class="footer__email-form" value="Enter your email here" required="" multiple="">
+          <input type="submit" class="footer__email-submit" value="">
         </form>
       </div>
-      <div class="bottoms">
-        <section id="dace">
-          <img id="dace" src="/Logo.406711c9.png" alt="dace">
-          <p>
+      <div class="footer__bottom">
+        <section class="footer__bottom-dace">
+          <img class="footer__bottom-dace-img" src="/Logo.406711c9.png" alt="dace">
+          <p class="footer__bottom-dace-text">
             There are many variations of passages of Lorem Ipsum
             available, but the majorit have suffered alteration.
           </p>
-          <div class="social_net_logo">
-            <a id="fb" href="#"><img src="/fb.e2136ec1.png" alt="facebook"></a>
-            <a id="twitter" href="#"><img src="/tw.5b25aa9d.png" alt="tweetter"></a>
-            <a id="inst" href="#"><img src="/ins.e9ff68a7.png" alt="instagram"></a>
+          <div class="footer__socialnet_img">
+            <a class="footer__socialnet_img-fb" href="#"><img src="/fb.e2136ec1.png" alt="facebook"></a>
+            <a class="footer__socialnet_img-tw" href="#"><img src="/tw.5b25aa9d.png" alt="tweetter"></a>
+            <a class="footer__socialnet_img-ins" href="#"><img src="/ins.e9ff68a7.png" alt="instagram"></a>
           </div>
         </section>
-        <section id="quick_links">
-          <h3>Quick Links</h3>
-          <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Privacy</li>
-            <li>Career</li>
-            <li>Blog</li>
+        <section class="footer__quick_links">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__quick_links-nav">
+            <li class="footer__quick_links-item"><a href="#">About</a></li>
+            <li class="footer__quick_links-item"><a href="#">Services</a></li>
+            <li class="footer__quick_links-item"><a href="#">Privacy</a></li>            
+            <li class="footer__quick_links-item"><a href="#">Career</a></li>
+            <li class="footer__quick_links-item"><a href="#">Blog</a></li>
           </ul>
         </section>
-        <section id="about">
-          <h3>About</h3>
-          <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Privacy</li>
-            <li>Career</li>
-            <li>Blog</li>
+        <section class="footer__about">
+          <h3 class="footer__title">About</h3>
+          <ul class="footer__about-nav">
+            <li class="footer__about-item"><a href="#">About</a></li>
+            <li class="footer__about-item"><a href="#">Services</a></li>
+            <li class="footer__about-item"><a href="#">Privacy</a></li>
+            <li class="footer__about-item"><a href="#">Career</a></li>
+            <li class="footer__about-item"><a href="#">Blog</a></li>
           </ul>
         </section>
-        <section id="contact_us">
-          <h3>Contact Us</h3>
-          <ul>
-            <li>Address: 2750 Quadra Street Victoria, Canada</li>
-            <li>Call: +1 898 445 8978</li>
-            <li>Email: info@dace.com</li>
-            <li>Fax: +44 785 4578964</li>
+        <section class="footer__contact_us">
+          <h3 class="footer__title">Contact Us</h3>
+          <ul class="footer__nav">
+            <li class="footer__item">Address: 2750 Quadra Street Victoria, Canada</li>
+            <li class="footer__item">Call:<a href="tel: +1 898 445 8978">+1 898 445 8978</a></li>
+            <li class="footer__item"><a href="mailto:info@dace.com">Email: info@dace.com</a></li>
+            <li class="footer__item"><a href="fax:+44 785 4578964">Fax: +44 785 4578964</a></li>
           </ul>
         </section>
-        <div id="privacy_policy">
-          <p>Privacy & Policy</p>
-          <p>© 2020 Dace. All Right Reserved</p>
+        <div class="footer__privacy_policy-copy">
+          <p class="footer__privacy_policy">Privacy & Policy</p>
+          <p class="footer__copy">© 2020 Dace. All Right Reserved</p>
         </div>
       </div>
     </footer>
