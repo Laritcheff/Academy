@@ -232,7 +232,7 @@ a img:focus {
 }
 .header__banner-text {
   margin: 3% 20%;
-  color: #E1E1E1;
+  color: #e1e1e1;
 }
 .header__banner-get_started {
   margin-left: 20%;
@@ -278,7 +278,7 @@ a img:focus {
     border-radius: 5px;
     width: 60vw;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-    background-color: #074ECE;
+    background-color: #074ece;
     opacity: 0.8;
   }
   .header label {
@@ -296,7 +296,7 @@ a img:focus {
 
 @media (max-width: 1280px) {
   .header {
-    background-color: #074ECE;
+    background-color: #074ece;
     background-image: none !important;
   }
   .header__menu_desktop {
@@ -328,7 +328,7 @@ a img:focus {
   height: 37vh;
   padding: 5% 5% 15vh 5%;
   margin: 0 1vw;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
@@ -339,12 +339,12 @@ a img:focus {
   white-space: nowrap;
   padding: 2% 10%;
   color: darkturquoise;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 2px solid darkturquoise;
   border-radius: 25px;
 }
 .top_sections__button-midle {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: darkturquoise;
 }
 @media (max-width: 640px) {
@@ -405,7 +405,7 @@ a img:focus {
 .bottom_section__button {
   margin-top: 40px;
   margin: 24px 0;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: darkturquoise;
   white-space: nowrap;
   padding: 2vh 2vw;
@@ -439,7 +439,7 @@ a img:focus {
 .footer__top {
   display: flex;
   flex-direction: row;
-  border: 15px solid #FFFFFF;
+  border: 15px solid #ffffff;
   background-color: #ebf7ff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -456,7 +456,7 @@ a img:focus {
 .footer__bottom {
   position: relative;
   line-height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 60%;
   margin: 5% auto;
   display: flex;
@@ -467,7 +467,7 @@ a img:focus {
 }
 .footer__bottom a {
   line-height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer__title {
   padding-bottom: 30px;
@@ -482,7 +482,7 @@ a img:focus {
 }
 .footer__email {
   margin: 12vh 3vw 12vh 2vw;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: relative;
   width: 25vw;
   height: 8vh;
@@ -576,7 +576,7 @@ a img:focus {
     padding-bottom: 30px;
   }
   .footer__email {
-    width: 90%;
+    width: 400px;
   }
   .footer__bottom {
     width: 90%;

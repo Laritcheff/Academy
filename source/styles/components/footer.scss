@@ -150,11 +150,15 @@
       padding-bottom: 30px;
     }
     &__email {
-      width: 90%;
+      width: 400px;
     }
-&__bottom{width:90%;
-margin: 30px auto;}
- 
-&__socialnet_img{width: 10vw;}
+    &__bottom {
+      width: 90%;
+      margin: 30px auto;
+    }
+
+    &__socialnet_img {
+      width: 10vw;
+    }
   }
 }
